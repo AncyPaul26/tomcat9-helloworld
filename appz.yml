@@ -12,7 +12,7 @@ build:
   image_name: ancypaul26/tomcat9-helloworld
 
 deploy:
-  context: ancypaul26/DEV
+  context: AncyPaul26/DEV
   replicas: 2
   port: 
    - 8080
