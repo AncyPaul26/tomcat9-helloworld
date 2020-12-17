@@ -9,10 +9,10 @@ build:
   build_file: pom.xml
   output_files: output/*.war
   image_template: tomcat9
-  image_name: AncyPaul26/tomcat9-helloworld
+  image_name: ancypaul26/tomcat9-helloworld
 
 deploy:
-  context: AncyPaul26/DEV
+  context: ancypaul26/DEV
   replicas: 2
   port: 
    - 8080
